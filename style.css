@@ -61,6 +61,7 @@ width:100%;
   border: solid 0.5px rgb(0, 0, 0);
    transition: 0.5s 0.15s;
   cursor: pointer;
+
  }
 
 /**  End Header EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE**/
@@ -234,17 +235,17 @@ footer{
 }
 input[type='button']{
   background-color: rgb(165, 91, 224);
-  padding: 6px;
-  color: white;
+   color: white;
   font-size: 15px;
   border:solid 1px rgb(231, 14, 59);
-  border-radius: 5px;
-}
+  padding: 6px;
+   }
 input[type='button']:hover{
   background-color: rgb(199, 114, 196);
+   outline:solid 2px rgb(231, 14, 59);
+ }
 
-  border:solid 2px rgb(231, 14, 59);
-}
+
 .formLogo{
   border-left:solid 1px black;
 }
